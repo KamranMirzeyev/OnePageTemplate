@@ -1,0 +1,14 @@
+#counter{
+    height: 40vh;
+    background-image: url(../img/client.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+  
+    .counter-item i{
+        font-size: $font-size-1*2;
+        margin-bottom: 20px;
+    }
+}

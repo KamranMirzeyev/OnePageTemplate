@@ -1,0 +1,40 @@
+#service{
+    
+    .service-item{
+        padding: 20px 15px;
+        flex-wrap: wrap;
+        margin-bottom: 25px;
+        
+        .icons{
+            padding: 14px 14.5px;
+            border: 2px solid $color-1;
+            border-radius: 50%;
+            height: 65px;
+            width: 65px;
+            margin: 0 auto;
+            margin-bottom: 15px;
+            
+        }
+        i{
+            color: $color-1;
+            font-size: $font-size-1*1.7;
+           line-height: 32px;
+        }
+        i ::before{
+            position: absolute;
+            
+        }
+        h5{
+            font-weight: 700;
+            font-family: $font-family;
+            margin-bottom: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: $color-icon;
+            &:hover{
+                color: $color-1;
+            }
+        }
+    }
+}

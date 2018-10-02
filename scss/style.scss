@@ -1,0 +1,73 @@
+body{
+font-family: 'Nunito Sans', sans-serif;
+overflow-x: hidden;
+}
+
+
+
+@import 'partials/root';
+@import 'partials/variables';
+@import 'partials/mixing';
+@import 'partials/companent';
+
+
+
+
+@import 'partials/menu';
+@import 'partials/home';
+@import 'partials/typed';
+@import 'partials/about';
+@import 'partials/service';
+@import 'partials/counter';
+@import 'partials/edu';
+@import 'partials/freelance';
+@import 'partials/work';
+@import 'partials/clinet';
+@import 'partials/blog';
+@import 'partials/subscribe';
+@import 'partials/footer';
+
+nav.sticky{
+    
+    background-color: white;
+    @include setTransition(all, 1s);
+    .nav-link{
+        color: black;
+    }
+    .navbar-brand{
+        color: black;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .header{
+        height: 65px;
+        background-color: white;
+        .navbar-brand{
+            color: black;
+        }
+    }
+    #counter{
+        height: 100vh;
+    }
+    #client{
+        height: 100vh;
+    }
+    #client .carousel-item{
+        width: 300px;
+    }
+    footer{
+        ul{
+            margin: 0;
+            padding: 5px;
+        }
+        ul.footer-sosial-icon li a{
+                padding-right: 20px;
+                color: $color-icon;
+                &:hover{
+                    color: $color-1;
+                }
+        }
+    }
+    
+}

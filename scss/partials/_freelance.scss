@@ -1,0 +1,25 @@
+#freelance{
+    height: 50vh;
+    position: relative;
+    background-image: url(../img/free.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    a{
+        padding: 11px 25px;
+        color: white;
+        text-decoration: none;
+        border: 2px solid white;
+        border-radius: 5px;
+        margin-top: 15px;
+        line-height: 70px;
+        font-size: $font-size-1;
+        font-family: $font-family;
+        font-weight: 500;
+        &:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+}

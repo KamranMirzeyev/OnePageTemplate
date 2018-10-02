@@ -1,0 +1,29 @@
+#about{
+    
+    .about-photo{
+        position: relative;
+    }
+    .about-photo img{
+        max-width: 100%;
+    }
+    .about-sosial{
+        
+        .about-sosial-icon{
+            list-style-type: none;
+           padding: 0;
+           
+        }
+        .about-sosial-icon li{
+            display: inline-block;
+            margin-right: 25px;
+        }
+        .about-sosial-icon li a{
+            color: $color-icon;
+        }
+        .about-a{
+            border-radius: 30px;
+            margin-top: 5px;
+            display: inline-block;
+        }
+    }
+}

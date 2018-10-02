@@ -1,0 +1,45 @@
+#blog{
+   .card-group{
+       background-color: white;
+   }
+   .card{
+       max-width: 95%;
+       max-height: 95%;
+       border: none;
+       margin: 0 auto;
+   }
+   .cart-content{
+       a{
+           text-decoration: none;
+       }
+       a.cart-lift{
+           font-size: ($font-size-1)-4;
+           padding: 4px 9px;
+           border-radius: 15px;
+       }
+   }
+   .card-body h5{
+       font-family: $font-family;
+       font-weight: 600 !important;
+   }
+   .card2-img{
+       margin-bottom: 8px;
+   }
+   .blog-video{
+       height: 100px;
+       width: 100px;
+       border-radius: 50px;
+       z-index: 9;
+       display: inline-block;
+       position: absolute;
+       background-color: white;
+       bottom: 70px;
+       left:  110px;
+       i{
+        position: absolute;
+        top: 33px;
+        left: 40px;
+        font-size: $font-size-1*2;
+       }
+   }
+}

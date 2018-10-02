@@ -1,0 +1,24 @@
+footer{
+    button{
+        cursor: pointer;
+    }
+    .touch-me {
+        button.touch-b{
+        border-radius: 30px;
+        }
+    }
+    ul.footer-sosial-icon{
+        list-style-type: none;
+        li{
+            display: inline-block;
+            a{
+                padding-right: 45px;
+                color: $color-icon;
+                &:hover{
+                    color: $color-1;
+                }
+            }
+        }
+        
+    }
+}

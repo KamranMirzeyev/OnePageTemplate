@@ -1,0 +1,32 @@
+#subscribe{
+    .newspaper{
+        input{
+            width: 100%;
+            border-radius: 25px;
+            height: 50px;
+            padding: 15px 20px;
+            font-size: 17px;
+            color: #4c5667 !important;
+            border: none;
+            outline: none !important;
+            padding-right: 150px;
+            padding-left: 30px;
+            background-color: #f1f1f1;
+            margin: 0 auto;
+        }
+        button{
+            border-radius: 30px;
+            padding: 8px 45px;
+            position: absolute;
+            top: 4px;
+            right: 5px;
+            outline: none !important;
+            border-radius: 30px;
+            font-size: 17px;
+            
+        }
+        form{
+            max-width: 550px;
+        }
+    }
+}

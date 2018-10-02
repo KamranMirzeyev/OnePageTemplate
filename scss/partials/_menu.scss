@@ -1,0 +1,20 @@
+.menu{
+ 
+    
+    .navbar-brand{
+        color: white;
+        font-size: $font-size-big/3;
+        text-transform: uppercase;
+    }
+    ul li a{
+        color: white;
+        &:hover,:active{
+            color: $color-1;
+        }
+    }
+    .nav-link.active{
+        color: $color-1
+    }
+   
+    
+}
